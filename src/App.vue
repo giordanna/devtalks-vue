@@ -1,32 +1,37 @@
+<!-- template HTML -->
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <main>
+    <header>
+      <!-- 1) print na tela -->
+      <h1>
+        Olá mundo!
+      </h1>
+    </header>
+
+    <!-- 2) two-way data binding -->
+
+    <!-- 3) condições -->
+
+    <!-- 4) loops -->
+
+    <!-- 5) classes e estilos dinâmicos -->
+
+    <!-- 6) componentes -->
+
+    <!-- 7) transições -->
+
+    <!-- 8) validações de formulário -->
+
+    <!-- 9) rotas -->
+
+    <!-- 10) estado global -->
+  </main>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<!-- variáveis, métodos, imports, etc -->
+<script>
+export default {};
+</script>
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+<!-- estilos de folha -->
+<style scoped></style>
