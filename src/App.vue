@@ -10,9 +10,9 @@
 
     <!-- 2) two-way data binding -->
 
-    <!-- 3) condições -->
+    <!-- 3) condições, computed e watch -->
 
-    <!-- 4) loops -->
+    <!-- 4) loops e eventos de clique -->
 
     <!-- 5) classes e estilos dinâmicos -->
 
