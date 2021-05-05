@@ -12,13 +12,13 @@
 
     <!-- 3) condições, computed e watch -->
 
-    <!-- 4) ciclos de vida -->
+    <!-- 4) loops e eventos de clique -->
 
-    <!-- 5) loops e eventos de clique -->
+    <!-- 5) classes e estilos dinâmicos -->
 
-    <!-- 6) classes e estilos dinâmicos -->
+    <!-- 6) componentes -->
 
-    <!-- 7) componentes -->
+    <!-- 7) ciclos de vida -->
 
     <!-- 8) transições -->
 
