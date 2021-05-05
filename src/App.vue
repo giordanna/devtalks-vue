@@ -12,19 +12,21 @@
 
     <!-- 3) condições, computed e watch -->
 
-    <!-- 4) loops e eventos de clique -->
+    <!-- 4) ciclos de vida -->
 
-    <!-- 5) classes e estilos dinâmicos -->
+    <!-- 5) loops e eventos de clique -->
 
-    <!-- 6) componentes -->
+    <!-- 6) classes e estilos dinâmicos -->
 
-    <!-- 7) transições -->
+    <!-- 7) componentes -->
 
-    <!-- 8) validações de formulário -->
+    <!-- 8) transições -->
 
-    <!-- 9) rotas -->
+    <!-- 9) validações de formulário -->
 
-    <!-- 10) estado global -->
+    <!-- 10) rotas -->
+
+    <!-- 11) estado global -->
   </main>
 </template>
 
