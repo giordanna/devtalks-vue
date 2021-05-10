@@ -1,39 +1,31 @@
-<!-- template HTML -->
 <template>
-  <main>
+  <div id="app" class="container mx-auto">
     <header>
-      <!-- 1) print na tela -->
-      <h1>
-        Olá mundo!
+      <h1 class="text-xl mt-3 font-bold">
+        Olá inspiring devs!
       </h1>
+
+      <!-- 10) rotas -->
+      <nav class=" my-3 font-bold">
+        <router-link
+          to="/"
+          exact
+          class="text-green-400"
+          active-class="text-green-800"
+        >
+          Home
+        </router-link>
+        |
+        <router-link
+          to="/sobre"
+          class="text-green-400"
+          active-class="text-green-800"
+        >
+          Sobre
+        </router-link>
+      </nav>
     </header>
-
-    <!-- 2) two-way data binding -->
-
-    <!-- 3) condições, computed e watch -->
-
-    <!-- 4) loops e eventos de clique -->
-
-    <!-- 5) classes e estilos dinâmicos -->
-
-    <!-- 6) componentes -->
-
-    <!-- 7) ciclos de vida -->
-
-    <!-- 8) transições -->
-
-    <!-- 9) validações de formulário -->
-
-    <!-- 10) rotas -->
-
-    <!-- 11) estado global -->
-  </main>
+    <!-- rota atual renderizada -->
+    <router-view />
+  </div>
 </template>
-
-<!-- variáveis, métodos, imports, etc -->
-<script>
-export default {};
-</script>
-
-<!-- estilos de folha -->
-<style scoped></style>
